@@ -6,19 +6,19 @@ In this project, I use the unsupervised learning method called K-Means clusterin
 
 # Summary
 To begin, I utilize the elbow curve method with normalized data to determine the optimal value of "k" for the K-Means model, which will be applied using all the original features present in the dataset.
-![Elbow Curve](path/to/elbow_curve_figure.png)
+![Elbow Curve](https://github.com/Kanwalifti/CryptoClustering/blob/main/CryptoClustering/Elbow_Curve.png))
 
 After identifying the optimal "k" value, I proceed to train and predict the K-Means model, creating four clusters of cryptocurrencies. The inertia of each cluster is substantial, prompting consideration for reducing the number of features in the dataset.
-![Clusters with Original Features](path/to/clusters_with_original_features_figure.png)
+![Clusters with Original Features](https://github.com/Kanwalifti/CryptoClustering/blob/main/CryptoClustering/Scatter1.png)
 
 In order to reduce the number of features, I used Principal Component Analysis (PCA) to establish three primary clusters.
-![PCA Clusters](path/to/pca_clusters_figure.png)
+![PCA Clusters](https://github.com/Kanwalifti/CryptoClustering/blob/main/CryptoClustering/pca_123.png)
 
 After obtaining the PCA data, I recalculated the optimal "k" value for the K-Means model.
-![Optimal K for PCA](path/to/optimal_k_pca_figure.png)
+![Optimal K for PCA](https://github.com/Kanwalifti/CryptoClustering/blob/main/CryptoClustering/Elbow_pca.png)
 
 Lastly, using the optimal "k" value for the PCA features, I visualize the new clusters by plotting them.
-![New Clusters Visualization](path/to/new_clusters_visualization_figure.png)
+![New Clusters Visualization](https://github.com/Kanwalifti/CryptoClustering/blob/main/CryptoClustering/PCA_scatter.png)
 
 # Technologies
 This is a Python 3.7 project ran using a JupyterLab in a conda dev environment.
