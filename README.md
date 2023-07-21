@@ -6,7 +6,7 @@ In this project, I use the unsupervised learning method called K-Means clusterin
 
 # Summary
 To begin, I utilize the elbow curve method with normalized data to determine the optimal value of "k" for the K-Means model, which will be applied using all the original features present in the dataset.
-![Elbow Curve](https://github.com/Kanwalifti/CryptoClustering/blob/main/CryptoClustering/Elbow_Curve.png))
+![Elbow Curve](https://github.com/Kanwalifti/CryptoClustering/blob/main/CryptoClustering/Elbow_Curve.png)
 
 After identifying the optimal "k" value, I proceed to train and predict the K-Means model, creating four clusters of cryptocurrencies. The inertia of each cluster is substantial, prompting consideration for reducing the number of features in the dataset.
 ![Clusters with Original Features](https://github.com/Kanwalifti/CryptoClustering/blob/main/CryptoClustering/Scatter1.png)
